@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thegameoflife:item/pause_button"
+  },
+
+  "overrides": [
+    {
+      "predicate": {
+    "thegameoflife:used": 1
+  },
+      "model": "thegameoflife:item/cell_controller_playing"
+    }
+  ]
+}
